@@ -12,7 +12,6 @@ A Laravel-based web application focused on culinary education. It features user 
 - [Additional Features](#additional-features)
 - [Frontend](#frontend)
 - [Testing](#testing)
-- [Documentation](#documentation)
 - [Demo Video](#demo-video)
 
 ## Project Setup
