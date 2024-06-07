@@ -13,6 +13,7 @@ A Laravel-based web application focused on culinary education. It features user 
 - [Frontend](#frontend)
 - [Testing](#testing)
 - [Documentation](#documentation)
+- [Demo Video](#demo-video)
 
 ## Project Setup
 
@@ -66,3 +67,7 @@ Run the following command to execute feature tests:
 ```bash
 php vendor/phpunit/phpunit/phpunit tests/Feature
 ```
+
+## Demo Video 
+
+[![Emcan Demo][[https://www.youtube.com/watch?v=M05SHzdtWUA/0.jpg](https://www.youtube.com/watch?v=M05SHzdtWUA)]
