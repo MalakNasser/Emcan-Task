@@ -21,6 +21,9 @@ A Laravel-based web application focused on culinary education. It features user 
    ```bash
    composer install
    ```
+   ```bash
+   npm install vite@latest
+   ```
 3. Copy `.env.example` to `.env` and configure your database settings.
 4. Generate application key:
    ```bash
