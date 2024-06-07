@@ -68,17 +68,23 @@
             <div class="form-group mt-3">
                 <button type="submit" class="btn btn-primary btn-sm">Update</button>
             </div>
+            <div id="deleted-lessons-container" style="display: none;"></div>
         </form>
     </div>
 
     <script>
         function deleteLesson(element, lessonId) {
             element.closest('.lesson').remove();
-            const deletedLessonInput = document.createElement('input');
-            deletedLessonInput.type = 'hidden';
-            deletedLessonInput.name = 'deleted_lessons[]';
-            deletedLessonInput.value = lessonId;
-            document.querySelector('form').appendChild(deletedLessonInput);
+
+            if (lessonId) {
+                const deletedLessonInput = document.createElement('input');
+                deletedLessonInput.type = 'hidden';
+                deletedLessonInput.name = `deleted_lessons[${lessonId}]`;
+                deletedLessonInput.value = lessonId;
+
+                const deletedLessonsContainer = document.getElementById('deleted-lessons-container');
+                deletedLessonsContainer.appendChild(deletedLessonInput);
+            }
         }
 
         document.addEventListener('DOMContentLoaded', function() {

@@ -1,6 +1,6 @@
 .card {
     transition: transform 0.2s;
-    height: 400px;
+    height: max-content;
 }
 
 .card:hover {
