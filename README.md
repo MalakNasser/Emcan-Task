@@ -70,4 +70,4 @@ php vendor/phpunit/phpunit/phpunit tests/Feature
 
 ## Demo Video 
 
-[![Emcan Demo][[https://www.youtube.com/watch?v=M05SHzdtWUA/0.jpg](https://www.youtube.com/watch?v=M05SHzdtWUA)]
+[![Demo](https://img.youtube.com/vi/M05SHzdtWUA/0.jpg)](https://www.youtube.com/watch?v=M05SHzdtWUA)
